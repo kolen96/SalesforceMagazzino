@@ -13,7 +13,7 @@ public  class TestTriggerItem {
         insert subT;
         List<Item__c> items = new List<Item__c>();
         for(Schema.Location sc : locations){
-            items.add(new Item__c(Name = 'Logitech5402',Location__c = sc.id,ThresholdLimit__c = 10,Brand__c = 'Logitech',SubType__c = subT.id));
+            items.add(new Item__c(Name = 'Logitech5405',Location__c = sc.id,ThresholdLimit__c = 10,Brand__c = 'Logitech',SubType__c = subT.id));
             items.add(new Item__c(Name = 'RazerNew',Location__c = sc.id,ThresholdLimit__c = 10,Brand__c = 'Razer',SubType__c = subT.id));
         }
         insert items;
